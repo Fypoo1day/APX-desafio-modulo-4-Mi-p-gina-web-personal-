@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Orbitron:wght@500&family=Poppins&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!--CSS-->
+    <link rel="stylesheet" href="./components/form.css" />
+    <link rel="stylesheet" href="./components/header.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="stylesheet" href="./pages/services.css" />
+
+    <!--SCRIPTS-->
+    <script defer src="./components/form.js"></script>
+    <script defer src="./components/header.js"></script>
+    <script defer src="./pages/services.js"></script>
+    <script defer src="./aboutme.js"></script>
+    <script defer src="./pages/index.js"></script>
+    <!-- <script defer src="./hamburguer.js"></script> -->
+
+    <title>Alan Philipp Celasco</title>
+  </head>
+  <body>
+    <nav class="header">
+      <label class="header__logo">ALAN</label>
+      <ul class="header_items">
+        <li><a href="./portfolio.html">Portfolio</a></li>
+        <li><a href="./services.html">Servicios</a></li>
+        <li><a href="./form.html">Contacto</a></li>
+      </ul>
+      <span class="btn_menu">
+        <i class="fa fa-bars"></i>
+      </span>
+    </nav>
+
+    <section class="hero" id="hero">
+      <div class="hero-title">
+        <h1>Hola <br />Soy Alan</h1>
+      </div>
+    </section>
+
+    <section class="aboutMe"></section>
+
+    <template id="aboutMe__template">
+      <div class="aboutMe__img">
+        <img src="" alt="" class="aboutMe__img-template" />
+      </div>
+      <div class="aboutMe__text">
+        <h2 class="aboutMe__text-title"></h2>
+        <p class="aboutMe__text-p"></p>
+      </div>
+    </template>
+
+    <section class="services">
+      <h2 class="services__title">Mis servicios</h2>
+      <div class="services__content"></div>
+    </section>
+
+    <template id="services__card-template">
+      <div class="services__card">
+        <img src="./assets/services.png" alt="" class="services__card-img" />
+        <div class="services__card-content">
+          <h4 class="services__card-title">Un trabajo que hice</h4>
+          <p class="services__card-text">
+            Te cuento un poco más sobre este trabajo y sobre cómo la rompí en
+            este proyecto. Si el texto se hace..
+          </p>
+          <a href="https://apx.school" class="services__card-link"> Ver más </a>
+        </div>
+      </div>
+    </template>
+
+    <div class="form-container"></div>
+
+    <footer>
+      <div class="container">
+        <p>&copy; Fypoolday 2021</p>
+      </div>
+    </footer>
+  </body>
+</html>
