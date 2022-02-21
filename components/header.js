@@ -22,8 +22,8 @@ function headerComponent(el) {
   `;
 
   el.appendChild(componentEl);
-  // const burguerMenuEl = document.querySelector(".hamburguer");
-  // const windowEl = document.querySelector(".header__nav-links");
+  const burguerMenuEl = document.querySelector(".hamburguer");
+  const windowEl = document.querySelector(".header__nav-links");
 
   const hamburguer = document.getElementById("hamburguer");
   const navUL = document.getElementById("hamburguer");

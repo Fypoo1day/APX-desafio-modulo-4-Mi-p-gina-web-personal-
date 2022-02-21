@@ -1,27 +1,4 @@
-.contacto {
-  background-color: #000;
-  color: white;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10px;
-}
-
-.contacto__title,
-.contacto__label,
-.contacto__input {
-  font-family: "Poppins";
-}
-
-.contacto__input {
-  width: 100%;
-}
-
-.contacto__form {
-  min-width: 300px;
-}
-
-/* .form {
+.form {
   background-color: #181818;
 }
 
@@ -96,4 +73,4 @@
 
 .form__btn:hover {
   cursor: pointer;
-} */
+}
