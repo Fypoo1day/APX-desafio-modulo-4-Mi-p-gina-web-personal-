@@ -61,6 +61,7 @@
 
 .header__nav-links a {
   margin: 20px;
+  font-family: "Montserrat";
 }
 
 .header__nav-links a:hover {

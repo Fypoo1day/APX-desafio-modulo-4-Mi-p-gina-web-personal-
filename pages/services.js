@@ -50,6 +50,9 @@ function main() {
       addServiceCard(s);
     }
   });
+
+  headerComponent(document.querySelector(".header__services"));
+  footerComponent(document.querySelector(".footer"));
 }
 
 main();
