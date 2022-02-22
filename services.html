@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Orbitron:wght@500&family=Poppins&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!--CSS-->
+    <link rel="stylesheet" href="./components/form.css" />
+    <link rel="stylesheet" href="./components/header.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+
+    <link rel="stylesheet" href="./pages/services.css" />
+    <link rel="stylesheet" href="./components/footer.css" />
+
+    <!--SCRIPTS-->
+    <script defer src="./components/form.js"></script>
+    <script defer src="./components/header.js"></script>
+    <script src="./components/footer.js"></script>
+    <script defer src="./pages/services.js"></script>
+
+    <title>Services Alan Philipp Celasco</title>
+  </head>
+  <body>
+    <header class="header__services"></header>
+
+    <section class="services__page">
+      <h2 class="services__title">Mis servicios</h2>
+      <div class="services__content"></div>
+    </section>
+
+    <footer class="footer"></footer>
+
+    <template id="services__card-template">
+      <div class="services__card">
+        <img src="./assets/services.png" alt="" class="services__card-img" />
+        <div class="services__card-content">
+          <h4 class="services__card-title">Un trabajo que hice</h4>
+          <p class="services__card-text">
+            Te cuento un poco más sobre este trabajo y sobre cómo la rompí en
+            este proyecto. Si el texto se hace..
+          </p>
+          <a href="https://apx.school" class="services__card-link"> Ver más </a>
+        </div>
+      </div>
+    </template>
+  </body>
+</html>
