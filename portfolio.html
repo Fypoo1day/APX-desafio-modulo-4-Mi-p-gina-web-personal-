@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--GOOGLE FONTS-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Orbitron:wght@500&family=Poppins&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+      integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
+      crossorigin="anonymous"
+    />
+    <!--CSS-->
+    <link rel="stylesheet" href="./components/header.css" />
+    <link rel="stylesheet" href="./pages/portfolio.css" />
+    <link rel="stylesheet" href="./components/footer.css" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <!--SCRIPTS-->
+    <script defer src="./components/header.js"></script>
+    <script defer src="./components/form.js"></script>
+    <script defer src="./components/footer.js"></script>
+    <script defer src="./pages/portfolio.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header class="header__portfolio"></header>
+
+    <section class="portfolio">
+      <div class="portfolio__container-title">
+        <h2 class="portfolio__title">Mis proyectos</h2>
+      </div>
+      <div class="portfolio__container"></div>
+    </section>
+
+    <footer class="footer"></footer>
+
+    <template id="portfolio">
+      <div class="portoflio__card">
+        <div class="portfolio__card-top">
+          <img src="" alt="" class="portfolio__img" />
+        </div>
+        <div class="portfolio__card-bot">
+          <h3 class="portfolio__card-title"></h3>
+          <p class="portfolio__card-p"></p>
+          <a href="" class="portfolio__link" target="blank">Ver más</a>
+        </div>
+      </div>
+    </template>
+  </body>
+</html>

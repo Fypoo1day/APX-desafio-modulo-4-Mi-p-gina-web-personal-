@@ -23,6 +23,7 @@ function getAboutMe() {
       return res.json();
     })
     .then((data) => {
+      console.log(data);
       const fieldsCollections = data.items.map((i) => {
         const imgId = i.fields.imagen.sys.id;
         const img = getImgS(imgId, data);
