@@ -51,6 +51,7 @@ a:hover {
 }
 
 .aboutMe__img {
+  height: 100%;
   display: none;
 }
 
@@ -64,7 +65,8 @@ a:hover {
   }
 }
 .aboutMe__img-template {
-  width: 100%;
+  /* width: 100%; */
+  border-radius: 10px;
 }
 
 .aboutMe__text {
